@@ -1,0 +1,33 @@
+<!--
+ * @Description: 
+ * @Author: yanghuan
+ * @Date: 2022-09-25 22:50:38
+ * @LastEditTime: 2022-09-26 10:41:02
+ * @Last Modified by: yanghuan
+ * @packageDocumentation: 
+ * @module: 
+ * @category: 
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <meta
+      http-equiv="X-Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'"
+    />
+    <title>Hello from Electron renderer!</title>
+  </head>
+  
+  <body>
+    <h1>Hello from Electron renderer!</h1>
+    <p>👋</p>
+    <p id="info"></p>
+  </body>
+  <script src="./renderer.js"></script>
+</html>
